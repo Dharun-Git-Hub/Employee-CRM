@@ -14,7 +14,7 @@ I'm G. Dharun Vignesh, BCA, PGDCA.
 ## Please read the Guide Button before Start Using
 
 ## Starting the Application
-# Frontend Start: 
+# Frontend Ignition from root directory: 
     npm start
 # Inside server folder run: 
     node main.cjs

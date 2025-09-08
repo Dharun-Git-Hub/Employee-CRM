@@ -13,6 +13,14 @@ I'm G. Dharun Vignesh, BCA, PGDCA.
 
 ## Please read the Guide Button before Start Using
 
+- Create a .env file inside server folder and Copy-Paste the things in the  BACKEND-CONFIG.txt into it.
+- Create a .env file inside the project's root directory and Copy-Paste the things in FRONTEND-CONFIG.txt into it.
+- If you have your own Keys then you may use your's definitely.
+- From the Root Directory: 
+      start Frontend by npm start
+      start Backend by node server/main.cjs
+- That's It !
+
 ## Starting the Application
 # Frontend Ignition from root directory: 
     npm start

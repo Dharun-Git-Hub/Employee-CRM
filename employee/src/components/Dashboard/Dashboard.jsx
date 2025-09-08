@@ -60,7 +60,7 @@ const Dashboard = () => {
         if(employee.length === 0)
             return
         setEmpCount(employee?.length || 0)
-        setPermanent(employee?.filter(e=>e.status==='Permanent').length)
+        setPermanent(employee?.filter(e=>e.type==='Permanent').length)
         setHR(employee?.filter(e=>e.designation==='HR Manager').length)
         console.log(employee)
     }
@@ -137,5 +137,6 @@ const Dashboard = () => {
         </div>
     )
 }
+
 
 export default Dashboard

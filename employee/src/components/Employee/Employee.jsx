@@ -155,7 +155,7 @@ const Employee = () => {
                     </tbody>
                 </table>
                 :
-                <span>{status}</span>
+                <span style={{marginLeft:'20px',fontFamily:'Poppins',color:'red'}}>{status}</span>
                 }
             </div>
             {
@@ -190,5 +190,6 @@ const PicModal = ({image,setClicked,setClickedImage}) => {
         </div>
     )
 }
+
 
 export default Employee

@@ -1,12 +1,24 @@
-# React + Vite
+## Hello, RadicalStart Team 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I'm G. Dharun Vignesh, BCA, PGDCA.
 
-Currently, two official plugins are available:
+**Here is a Quick Summary of the Level - 2 Task**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Login** - By Default, You are the Admin so just **Signup** using your **Email** and **Preferred** password.
+- **OAuth** - Signin using your same **GMAIL**
+- **Private** **Routes** - Security Purposes
+- **Password** Hashing - BCrypt, Crypto
+- **Middleware** - For Database Initialization
+- **Redux** - For Global State Management.
 
-## Expanding the ESLint configuration
+## Please read the Guide Button before Start Using
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Starting the Application
+# Frontend Start: 
+    npm start
+# Inside server folder run: 
+    node main.cjs
+
+<img width="1903" height="913" alt="image" src="https://github.com/user-attachments/assets/4966cef9-c3ee-4e00-af0c-fd226935e009" />
+
+<img width="1897" height="906" alt="image" src="https://github.com/user-attachments/assets/e70d0656-fdac-461a-9514-25483415a4ba" />

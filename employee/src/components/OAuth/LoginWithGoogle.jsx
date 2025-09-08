@@ -16,6 +16,10 @@ const LoginWithGoogle = ({username}) => {
         console.log(credentialResponse)
         try{
             const res = await axios.post(import.meta.env.VITE_URI+'google-login',{token});
+            if(res.data.user.email !== username){
+              toast.error('Verify with the Same Email which one you Logged In!')
+              return
+            }
             await axios.post(import.meta.env.VITE_URI+'logUser',{details:res?.data,username})
             console.log(res.data);
             const {user} = res.data
@@ -52,5 +56,6 @@ const LoginWithGoogle = ({username}) => {
     </div>
   );
 };
+
 
 export default LoginWithGoogle;

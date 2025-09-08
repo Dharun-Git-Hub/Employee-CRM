@@ -150,7 +150,7 @@ exports.logUser = async (req,res) => {
         console.log('OAUTH: ');
         console.log(details.user.email)
         console.log(details.user.given_name)
-        await req.db.query('insert into logs (gmail,name,username) values (?,?)',[details.user.email,username])
+        await req.db.query('insert into logs (gmail,name) values (?,?)',[username,details.user.given_name])
         return res.json({status:'success'})
     }
     catch(err){
@@ -223,4 +223,5 @@ exports.verifyOTP = async (req,res) => {
         console.log(err)
         return res.json({status:'failure',message:'Something went wrong!'})
     }
+
 }

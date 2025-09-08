@@ -174,7 +174,7 @@ exports.getLogs = async (req,res) => {
 
 exports.forgot = async (req,res) => {
     const {email} = req.body
-    const [result] = await req.db.query('select gmail from logs where gmail = (?)',[email])
+    const [result] = await req.db.query('select username from users where username = (?)',[email])
     if(result.length===0){
         return res.json({status:'failure',message:'Email Not Exists! Signup First!'})
     }
@@ -225,3 +225,4 @@ exports.verifyOTP = async (req,res) => {
     }
 
 }
+
